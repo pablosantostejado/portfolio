@@ -24,11 +24,11 @@
   },
   "hero": {
     "welcomeTitle": "Bienvenido",
-    "studentTitle": "Student & Researcher Frontend",
-    "welcomeText": "This version is tailored for PhD students, MSc students, postdocs, and research-focused early-career academics who want a stronger research identity on the homepage."
+    "studentTitle": "Estudiante",
+    "welcomeText": "Esta versión de mi portafolio está centrada en mis proyectos así como su documentación técnica correspondiente."
   },
   "hiring": {
-    "enabled": true,
+    "enabled": false,
     "title": "Open to Collaboration & Hiring",
     "description": "I'm actively seeking research collaborators, postdoctoral fellows, and motivated graduate students interested in human-computer interaction, accessibility, and reproducible research methods. If you share a passion for inclusive design and rigorous experimentation, let's build something meaningful together."
   },
