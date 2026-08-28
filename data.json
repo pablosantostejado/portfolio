@@ -228,10 +228,13 @@
         "title": "Áreas de Conocimiento Teórico",
         "description": "Fundamentos físicos y matemáticos en los que baso mis proyectos.",
         "items": [
-          "Análisis Numérico y Ecuaciones Diferenciales",
-          "Procesos Estocásticos (Dinámica de Langevin, Movimiento Browniano)",
-          "Física de Estado Sólido y Mecánica Cuántica",
-          "Topología"
+          "Métodos Numéricos",
+          "Ecuaciones Diferenciales",
+          "Cálculo Estocástico",
+          "Estadistica",
+          "Física de Estado Sólido y Materiales",
+          "Física Cuántica",
+          "Física Estadística"
         ]
       },
       {
