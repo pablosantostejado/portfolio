@@ -168,7 +168,7 @@
         "value": "6"
       }
     ],
-    "highlights": [
+   "highlights": [
       {
         "title": "Herramientas y Lenguajes",
         "description": "Software y lenguajes de programación que utilizo para el análisis y modelado.",
@@ -219,7 +219,7 @@
           "Automatización de procesos mediante scripts"
         ]
       }
-    ]
+    ],
   },
   "professorPage": {
     "hero": {
