@@ -2,9 +2,9 @@
   "profile": {
     "name": "Pablo Santos Tejado",
     "initials": "PS",
-    "tagline": "Estudiante Doble Grado Física y Mátematicas",
+    "tagline": "",
     "headline": "Análisis de datos, modelado matemático y simulación física",
-    "bio": "Esstudiante de 5º de carrera en Matemáticas y Física. Tengo un gran interés el análisis y tratamiento de datos, así como la simulación de sistemas estocásticos, modelado mátematico y programación.",
+    "bio": "Soy estudiante del Doble Grado en Física y Matemáticas. Mis áreas de interés abarcan el análisis numérico, las simulaciones, los procesos estocásticos y el análisis y visualización de datos. Este portafolio recoge principalmente proyectos personales sobre temas que me interesan, los cuales desarrollo como método para aprender y aplicar herramientas computacionales.",
     "role": "Estudiante",
     "affiliation": "Universidad de Salamanca",
     "photos": [
@@ -33,9 +33,10 @@
     "description": ""
   },
   "opportunities": {
-    "title": "",
+    "title": "Aquí puedes encontrar mis datos para ponerte en contacto conmigo",
     "summary": "",
     "positions": []
+  },
   },
   "lab": {
     "title": "Advanced Systems & Learning Lab",
