@@ -266,7 +266,7 @@
       ]
     }
   },
-  "projects": [
+"projects": [
     {
       "title": "Assistive UX Toolkit",
       "subtitle": "Tooling & patterns for inclusive interfaces",
@@ -362,54 +362,6 @@
       ],
       "github": "https://github.com/example/repro-pipelines",
       "url": "https://example.edu/repro-pipelines"
-    },
-    {
-      "title": "Study Portal",
-      "subtitle": "Participant recruitment & consent",
-      "year": "2023",
-      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-      "description": "A secure, privacy-preserving portal to manage research participants and consent forms.",
-      "longDescription": "A secure project platform supporting participant recruitment, informed consent workflows, and structured research communication. The system was designed to reduce administrative burden while improving privacy and process consistency in study management.",
-      "demoUrl": "https://example.edu/study-portal-demo",
-      "videoUrl": "https://www.youtube.com/embed/Gl5MVtD3flQ",
-      "media": {
-        "featuredVideo": "https://www.youtube.com/embed/Gl5MVtD3flQ",
-        "featuredVideoTitle": "Study Portal Demonstration",
-        "featuredImage": "https://images.unsplash.com/photo-1573497161161-c13f6aa5b321?auto=format&fit=crop&w=1400&q=80",
-        "featuredImageCaption": "Participant-facing workflow and administrative study management environment.",
-        "screenshots": [
-          {
-            "image": "https://images.unsplash.com/photo-1573497161161-c13f6aa5b321?auto=format&fit=crop&w=1200&q=80",
-            "caption": "User-facing participant workflow and communication interface"
-          },
-          {
-            "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Academic collaboration and study management context"
-          }
-        ]
-      },
-      "meta": [
-        { "label": "Focus", "value": "Research Participation Workflow" },
-        { "label": "Scope", "value": "Recruitment, Consent, Data Privacy" },
-        { "label": "Type", "value": "Web-Based Academic Platform" }
-      ],
-      "highlights": [
-        "Structured participant onboarding and consent flow",
-        "Privacy-aware communication and record handling",
-        "Usable administration interface for research teams"
-      ],
-      "figures": [
-        {
-          "image": "https://images.unsplash.com/photo-1573497161161-c13f6aa5b321?auto=format&fit=crop&w=1200&q=80",
-          "caption": "User-facing participant workflow and communication interface"
-        },
-        {
-          "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
-          "caption": "Academic collaboration and study management context"
-        }
-      ],
-      "github": "https://github.com/example/study-portal",
-      "url": "https://example.edu/study-portal"
     }
   ],
   "publications": [
