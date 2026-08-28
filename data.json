@@ -176,49 +176,41 @@
           {
             "name": "Python",
             "icon": "code",
-            "level": "expert",
             "note": "NumPy, Pandas, Matplotlib y Seaborn para análisis y visualización de datos."
           },
           {
             "name": "Wolfram Mathematica",
             "icon": "monitor",
-            "level": "advanced",
             "note": "Implementación de algoritmos numéricos y simulaciones estocásticas."
           },
           {
             "name": "R / RStudio",
             "icon": "code",
-            "level": "advanced",
             "note": "Análisis estadístico, tratamiento de conjuntos de datos y generación gráfica."
           },
           {
             "name": "LaTeX",
             "icon": "bib",
-            "level": "expert",
             "note": "Redacción de documentación técnica y científica de proyectos."
           },
           {
             "name": "IBM SPSS",
             "icon": "monitor",
-            "level": "advanced",
             "note": "Análisis estadístico descriptivo e inferencial, pruebas de hipótesis y regresión."
           },
           {
             "name": "Power BI",
             "icon": "monitor",
-            "level": "advanced",
             "note": "Creación de dashboards interactivos, modelado de datos y visualización de métricas."
           },
           {
             "name": "Microsoft Excel",
             "icon": "monitor",
-            "level": "advanced",
             "note": "Fórmulas avanzadas, tablas dinámicas, automatización y análisis cuantitativo."
           },
           {
             "name": "SQL",
             "icon": "globe",
-            "level": "intermediate",
             "note": "Gestión, diseño y consulta de bases de datos relacionales."
           }
           
@@ -234,17 +226,8 @@
           "Estadistica",
           "Física de Estado Sólido y Materiales",
           "Física Cuántica",
-          "Física Estadística"
-        ]
-      },
-      {
-        "title": "Aplicaciones Prácticas",
-        "description": "Tipos de desarrollos y simulaciones que realizo.",
-        "items": [
-          "Simulaciones de Monte Carlo",
-          "Visualización avanzada de datos estadísticos",
-          "Modelado de sistemas físicos y propagación",
-          "Automatización de procesos mediante scripts"
+          "Física Estadística",
+          "Finanzas"
         ]
       }
     ]
