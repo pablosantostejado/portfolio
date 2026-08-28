@@ -663,17 +663,15 @@ function renderResearch(research, profile, expertise, lab) {
     return '<div class="research-highlight-card simple"><span>'+esc(item || '')+'</span></div>';
   };
 
-  document.getElementById('researchContent').innerHTML=
-    '<div class="section-header"><h2>'+esc(title)+'</h2><p>'+(summary ? esc(summary) : 'Research focus, highlights, and areas of expertise in the same visual theme.')+'</p></div>'+
+ document.getElementById('researchContent').innerHTML=
+    '<div class="section-header"><h2>'+esc(title)+'</h2></div>'+
     '<div class="tabs-container reveal">'+
       '<div class="tabs-header">'+
-        '<button class="tab-btn active" data-tab="research-overview">Overview</button>'+
-        '<button class="tab-btn" data-tab="research-highlights">Highlights</button>'+
-        '<button class="tab-btn" data-tab="research-interests">Interests</button>'+
+        '<button class="tab-btn active" data-tab="research-highlights">Destacados</button>'+
+        '<button class="tab-btn" data-tab="research-interests">Intereses</button>'+
       '</div>'+
-      '<div class="tab-panel active" id="tab-research-overview"><div class="research-intro">'+profile.bio+(summary?'<div style="margin-top:1rem">'+esc(summary)+'</div>':'')+overviewStats+'</div></div>'+
-      '<div class="tab-panel" id="tab-research-highlights">'+
-        (highlights.length ? highlights.map(renderHighlightGroup).join('') : '<div class="research-intro">Add items to <code>researchProfile.highlights</code> in <code>data.json</code> to show your current research highlights here.</div>')+
+      '<div class="tab-panel active" id="tab-research-highlights">'+
+        (highlights.length ? highlights.map(renderHighlightGroup).join('') : '<div class="research-intro">Añade elementos a highlights en data.json</div>')+
       '</div>'+
       '<div class="tab-panel" id="tab-research-interests"><div class="research-highlight-grid">'+interestCards.map(renderInterestItem).join('')+'</div></div>'+
     '</div>';
