@@ -285,7 +285,6 @@
       },
       "meta": [
         { "label": "Área", "value": "Física Computacional/Física Estadística" },
-        { "label": "Métodos", "value": "Ecuaciones Diferenciales Estocásticas" },
         { "label": "Herramientas", "value": "Python, LaTeX" }
       ],
       "highlights": [
@@ -298,12 +297,12 @@
       "url": ""
     },
     {
-      "title": "Análisis de Datos: Real Madrid Baloncesto",
-      "subtitle": "Analítica deportiva y métricas de rendimiento en EuroLeague",
+      "title": "Análisis y Visualización de Datos Deportivos",
+      "subtitle": "",
       "year": "2026",
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-      "description": "Análisis estadístico exhaustivo y visualización avanzada de datos de los jugadores del Real Madrid.",
-      "longDescription": "Proyecto de analítica deportiva desarrollado en Python centrado en el procesamiento y extracción de métricas de rendimiento de jugadores del Real Madrid (incluyendo estadísticas históricas de perfiles como Luka Dončić, Facundo Campazzo y Sergio Llull). El trabajo abarca la limpieza de datos con Pandas y la creación de representaciones visuales avanzadas utilizando Matplotlib y Seaborn, documentado íntegramente a través de Markdown en GitHub.",
+      "description": "Análisis estadístico y visualización de datos de los jugadores del Real Madrid en Euroliga desde 2007 hasta la actualidad.",
+      "longDescription": "Este proyecto consiste en un análisis estadístico del rendimiento histórico del equipo de baloncesto del Real Madrid en la Euroliga. El objetivo principal de este documento es evaluar de manera cuantitativa la evolución del estilo de juego, la eficiencia ofensiva y defensiva, y el impacto individual de los jugadores. Mediante la aplicación de técnicas de análisis de datos, se examinan variables estructuradas como el volumen de tiro, la distribución de minutos y la aportación relativa de los jugadores titulares frente a los suplentes. Este informe detalla los resultados analíticos obtenidos y proporciona una representación visual de las tendencias más relevantes para comprender el desarrollo táctico e histórico del equipo.",
       "demoUrl": "",
       "videoUrl": "",
       "media": {
@@ -312,14 +311,12 @@
         "screenshots": []
       },
       "meta": [
-        { "label": "Área", "value": "Analítica Deportiva" },
-        { "label": "Herramientas", "value": "Python, Pandas, Matplotlib, Seaborn" },
-        { "label": "Enfoque", "value": "Procesamiento de datos y Visualización" }
+        { "label": "Área", "value": "Estadística/Análsis y Visualización de Datos" },
+        { "label": "Herramientas", "value": "Python (Pandas, Matplotlib, Seaborn), LaTeX" }
       ],
       "highlights": [
-        "Desarrollo de gráficos estadísticos complejos: radar plots, violin plots y lollipop graphs.",
-        "Procesamiento y limpieza estructurada de conjuntos de datos de la EuroLeague mediante Pandas.",
-        "Creación de pipelines de visualización para analizar la distribución y eficiencia del rendimiento de los jugadores."
+        "Desarrollo de gráficos estadísticos complejos: radar plots, violin plots...",
+        "Procesamiento y limpieza estructurada de conjuntos de datos de la EuroLeague mediante Pandas."
       ],
       "figures": [],
       "github": "https://github.com/tu-usuario",
