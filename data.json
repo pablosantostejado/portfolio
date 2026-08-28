@@ -186,10 +186,34 @@
             "note": "Implementación de algoritmos numéricos y simulaciones estocásticas."
           },
           {
+            "name": "R / RStudio",
+            "icon": "code",
+            "level": "advanced",
+            "note": "Análisis estadístico, tratamiento de conjuntos de datos y generación gráfica."
+          },
+          {
             "name": "LaTeX",
             "icon": "bib",
             "level": "expert",
             "note": "Redacción de documentación técnica y científica de proyectos."
+          },
+          {
+            "name": "IBM SPSS",
+            "icon": "monitor",
+            "level": "advanced",
+            "note": "Análisis estadístico descriptivo e inferencial, pruebas de hipótesis y regresión."
+          },
+          {
+            "name": "Power BI",
+            "icon": "monitor",
+            "level": "advanced",
+            "note": "Creación de dashboards interactivos, modelado de datos y visualización de métricas."
+          },
+          {
+            "name": "Microsoft Excel",
+            "icon": "monitor",
+            "level": "advanced",
+            "note": "Fórmulas avanzadas, tablas dinámicas, automatización y análisis cuantitativo."
           },
           {
             "name": "SQL",
@@ -197,6 +221,7 @@
             "level": "intermediate",
             "note": "Gestión, diseño y consulta de bases de datos relacionales."
           }
+          
         ]
       },
       {
