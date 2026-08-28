@@ -75,28 +75,22 @@
   },
   "expertise": [
     {
-      "name": "Computación Cuántica"
+      "name": "Análisis y Visualización de Datos"
     },
     {
       "name": "Machine Learning"
     },
     {
-      "name": "Análisis y Visualización de Datos"
+      "name": "Computación Cuántica"
     },
     {
       "name": "Agentes de IA"
     },
     {
-      "name": "Analítica Deportiva y Estadística"
-    },
-    {
-      "name": "Simulaciones de Monte Carlo"
-    },
-    {
       "name": "Autómatas Celulares y Sistemas Dinámicos"
     },
     {
-      "name": "Cálculo Estocástico"
+      "name": "Finanzas Cuantitativas"
     }
   ],
   "researchProfile": {
