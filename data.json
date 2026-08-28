@@ -75,68 +75,28 @@
   },
   "expertise": [
     {
-      "name": "Human-Computer Interaction",
-      "level": "expert"
+      "name": "Computación Cuántica"
     },
     {
-      "name": "Accessibility",
-      "level": "expert"
+      "name": "Machine Learning"
     },
     {
-      "name": "Reproducible Research",
-      "level": "expert"
+      "name": "Análisis y Visualización de Datos"
     },
     {
-      "name": "User Study Design",
-      "level": "advanced"
+      "name": "Agentes de IA"
     },
     {
-      "name": "Statistical Analysis",
-      "level": "advanced"
+      "name": "Analítica Deportiva y Estadística"
     },
     {
-      "name": "Python",
-      "level": "advanced"
+      "name": "Simulaciones de Monte Carlo"
     },
     {
-      "name": "R / RStudio",
-      "level": "advanced"
+      "name": "Autómatas Celulares y Sistemas Dinámicos"
     },
     {
-      "name": "React / JavaScript",
-      "level": "intermediate"
-    },
-    {
-      "name": "Figma & Sketch",
-      "level": "intermediate"
-    },
-    {
-      "name": "Machine Learning",
-      "level": "intermediate"
-    },
-    {
-      "name": "Assistive Technology",
-      "level": "advanced"
-    },
-    {
-      "name": "LaTeX",
-      "level": "intermediate"
-    },
-    {
-      "name": "Data Visualization",
-      "level": "advanced"
-    },
-    {
-      "name": "Docker & CI/CD",
-      "level": "intermediate"
-    },
-    {
-      "name": "Inclusive Design",
-      "level": "expert"
-    },
-    {
-      "name": "Natural Language Processing",
-      "level": "intermediate"
+      "name": "Cálculo Estocástico"
     }
   ],
   "researchProfile": {
