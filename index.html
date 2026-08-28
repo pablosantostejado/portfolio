@@ -464,7 +464,7 @@ function renderHiring(h, opportunities){
   const description = (opportunities && opportunities.summary) || (h && h.description) || '';
   if((!h || !h.enabled) && !title && !description && !positions.length){document.getElementById('hiringSection').innerHTML='';return;}
   document.getElementById('hiringSection').innerHTML=
-    '<section class="otw-banner reveal" id="hiring"><div class="otw-orbit"></div><div class="otw-inner"><div class="otw-content"><h3>'+esc(title)+'</h3><p>'+esc(description)+'</p>'+(positions.length?'<div class="opps-pills">'+positions.map(item=>'<span class="opps-pill">'+esc(item)+'</span>').join('')+'</div>':'')+'</div><div class="otw-actions"><a class="otw-cta" href="#contact">'+ICONS.mail+'Contact Me</a></div></div></section>';
+    '<section class="otw-banner reveal" id="hiring"><div class="otw-orbit"></div><div class="otw-inner"><div class="otw-content"><h3>'+esc(title)+'</h3><p>'+esc(description)+'</p>'+(positions.length?'<div class="opps-pills">'+positions.map(item=>'<span class="opps-pill">'+esc(item)+'</span>').join('')+'</div>':'')+'</div><div class="otw-actions"><a class="otw-cta" href="#contact">'+ICONS.mail+'Contáctame</a></div></div></section>';
 }
 
 function renderProjects(projects){
