@@ -334,7 +334,7 @@ a.compact-card:hover .ext-arrow{opacity:1;transform:translateX(0)}
 <body data-theme="light">
 <header class="header"><div class="wrap header-inner">
 <a class="brand" href="#top" id="brandLink"><div class="logo" id="brandInitials"></div><div class="brand-text"><div class="name" id="brandName"></div><div class="tagline" id="brandTagline"></div></div></a>
-<nav><a href="#research">Investigación</a><a href="#projects">Proyectos</a><a href="#teaching">Docencia</a><a href="#experience">Experiencia</a><a href="#contact">Contacto</a>
+<nav><a href="#research">Investigación</a><a href="#projects">Proyectos</a><<a href="#experience">Experiencia</a><a href="#contact">Contacto</a>
 <button class="theme-btn" id="themeToggle" aria-label="Toggle theme"><svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button></nav>
 </div></header>
 
@@ -347,7 +347,6 @@ a.compact-card:hover .ext-arrow{opacity:1;transform:translateX(0)}
 </section>
 
 <section class="section" id="projects"><div class="section-header"><h2>Projects</h2><p>Selected projects with demos, source code, and documentation.</p></div><div class="grid g3" id="projectsGrid"></div></section>
-<section class="section" id="teaching"><div class="section-header"><h2>Teaching — Sample Lectures</h2><p>Click any tile to watch in a modal.</p></div><div class="grid g4" id="teachingGrid"></div></section>
 <section class="section" id="experience"><div class="section-header"><h2>Experience &amp; Education</h2></div><div id="expTabsContainer"></div></section>
 <section class="section" id="awards"><div class="section-header"><h2>Awards &amp; Certifications</h2></div><div class="grid g3" id="awardsGrid"></div></section>
 <section class="section" id="contact"><div class="section-header"><h2>Contact Me</h2></div><div id="contactContent"></div></section>
@@ -990,7 +989,6 @@ function renderSite(D){
   renderResearch(D.researchProfile, D.profile, D.expertise, D.lab);
   renderProjects(D.projects);
   // LA LÍNEA DE PUBLICACIONES ESTABA AQUÍ, YA ESTÁ BORRADA
-  renderTeaching(D.teaching);
   renderExperience(D.experience,D.education);
   renderAwards(D.awards);
   renderContact(D.contact,D.profile.name,D.cv,settings);
