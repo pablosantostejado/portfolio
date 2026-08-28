@@ -170,63 +170,53 @@
     ],
     "highlights": [
       {
-        "title": "Technical Skills & Frameworks",
-        "description": "Software, tools, and research workflows presented in a more compact academic style.",
+        "title": "Herramientas y Lenguajes",
+        "description": "Software y lenguajes de programación que utilizo para el análisis y modelado.",
         "items": [
           {
             "name": "Python",
             "icon": "code",
             "level": "expert",
-            "note": "Data analysis, automation, and research scripting."
+            "note": "NumPy, Pandas, Matplotlib y Seaborn para análisis y visualización de datos."
           },
           {
-            "name": "MATLAB",
+            "name": "Wolfram Mathematica",
             "icon": "monitor",
             "level": "advanced",
-            "note": "Numerical modeling and engineering computation."
+            "note": "Implementación de algoritmos numéricos y simulaciones estocásticas."
           },
           {
             "name": "LaTeX",
             "icon": "bib",
-            "level": "advanced",
-            "note": "Academic writing, thesis preparation, and publication formatting."
+            "level": "expert",
+            "note": "Redacción de documentación técnica y científica de proyectos."
           },
           {
-            "name": "GIS & Mapping Tools",
+            "name": "SQL",
             "icon": "globe",
-            "level": "learning",
-            "note": "Spatial data interpretation and field-oriented visualization."
+            "level": "intermediate",
+            "note": "Gestión, diseño y consulta de bases de datos relacionales."
           }
         ]
       },
       {
-        "title": "Area of Expertise",
-        "description": "Core research domains that define the academic profile.",
+        "title": "Áreas de Conocimiento Teórico",
+        "description": "Fundamentos físicos y matemáticos en los que baso mis proyectos.",
         "items": [
-          "Soft soil behavior and improvement",
-          "Vacuum-based densification methods",
-          "Laboratory and model testing",
-          "Sustainable geotechnical solutions"
+          "Análisis Numérico y Ecuaciones Diferenciales",
+          "Procesos Estocásticos (Dinámica de Langevin, Movimiento Browniano)",
+          "Física de Estado Sólido y Mecánica Cuántica",
+          "Topología"
         ]
       },
       {
-        "title": "Current Research Direction",
-        "description": "Topics that can be emphasized beside the slider and welcome copy.",
+        "title": "Aplicaciones Prácticas",
+        "description": "Tipos de desarrollos y simulaciones que realizo.",
         "items": [
-          "High vacuum densification for weak soil",
-          "Expansive soil stabilization",
-          "Correlation of field and laboratory parameters",
-          "Research translation into practical engineering"
-        ]
-      },
-      {
-        "title": "Collaboration Focus",
-        "description": "Themes suitable for future PhD, MSc, or postdoctoral collaboration.",
-        "items": [
-          "Joint publications and applied studies",
-          "Field validation and laboratory extension",
-          "Interdisciplinary civil engineering work",
-          "Academic mentoring and research teamwork"
+          "Simulaciones de Monte Carlo",
+          "Visualización avanzada de datos estadísticos",
+          "Modelado de sistemas físicos y propagación",
+          "Automatización de procesos mediante scripts"
         ]
       }
     ]
