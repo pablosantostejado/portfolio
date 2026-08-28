@@ -842,7 +842,7 @@
     "template": "phd",
     "templateLabel": "PhD Student",
     "_template_options": "Available templates: 'phd' (student view), 'professor' (professor/teacher view)",
-    "demoTemplateSwitcher": true,
+    "demoTemplateSwitcher": false,
     "publicationStyle": "alt",
     "scholarId": "7-QY6VEAAAAJ",
     "_theme_options": "Available themes: 'BH' (default light), 'blue' (academic light blue), 'dark'",
