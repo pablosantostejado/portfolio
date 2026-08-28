@@ -645,8 +645,7 @@ function renderResearch(research, profile, expertise, lab) {
   const renderHighlightItem=item=>{
     if(item && typeof item === 'object' && !Array.isArray(item)){
       const icon = ICONS[item.icon] || ICONS.code;
-      const level = (item.level || 'learning').toLowerCase();
-      return '<div class="research-highlight-card"><div class="research-skill-card"><div class="research-skill-icon">'+icon+'</div><div class="research-skill-content"><div class="research-skill-head"><strong>'+esc(item.name || item.title || 'Skill')+'</strong><span class="research-skill-level" data-level="'+esc(level)+'">'+esc(level)+'</span></div>'+(item.note ? '<div class="research-skill-note">'+esc(item.note)+'</div>' : '')+'</div></div></div>';
+      return '<div class="research-highlight-card"><div class="research-skill-card"><div class="research-skill-icon">'+icon+'</div><div class="research-skill-content"><div class="research-skill-head"><strong>'+esc(item.name || item.title || 'Skill')+'</strong></div>'+(item.note ? '<div class="research-skill-note">'+esc(item.note)+'</div>' : '')+'</div></div></div>';
     }
     return '<div class="research-highlight-card simple"><span>'+esc(item || '')+'</span></div>';
   };
