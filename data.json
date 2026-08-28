@@ -268,100 +268,60 @@
   },
 "projects": [
     {
-      "title": "Assistive UX Toolkit",
-      "subtitle": "Tooling & patterns for inclusive interfaces",
-      "year": "2025",
-      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80",
-      "description": "A toolkit for designers & developers to build accessible UI components and test assistive workflows.",
-      "longDescription": "This project develops a reusable accessibility-oriented toolkit for interface prototyping, testing, and implementation. It combines design guidance, tested interface patterns, and evaluation workflows to help research teams and developers build more inclusive digital systems.",
-      "demoUrl": "https://example.edu/assistive-ux-demo",
-      "videoUrl": "https://www.youtube.com/embed/Gl5MVtD3flQ",
+      "title": "Simulación de la Ecuación de Langevin",
+      "subtitle": "Movimiento Browniano y Teorema de Fluctuación-Disipación",
+      "year": "2026",
+      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80",
+      "description": "Proyecto de simulación física y modelado matemático del movimiento estocástico de partículas.",
+      "longDescription": "Desarrollo de una simulación estocástica para estudiar la dinámica de partículas bajo fuerzas aleatorias y fricción. El proyecto incluye la implementación de métodos numéricos para resolver Ecuaciones Diferenciales Estocásticas (SDEs) y el análisis computacional del Teorema de Fluctuación-Disipación. Todo el desarrollo, análisis de resultados y marco teórico fue estructurado y documentado académicamente utilizando LaTeX.",
+      "demoUrl": "",
+      "videoUrl": "",
       "media": {
-        "featuredVideo": "https://www.youtube.com/embed/Gl5MVtD3flQ",
-        "featuredVideoTitle": "Assistive UX Toolkit Demo",
-        "featuredImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80",
-        "featuredImageCaption": "Core toolkit interface used for design and accessibility evaluation.",
-        "screenshots": [
-          {
-            "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Design review and collaborative prototyping workflow"
-          },
-          {
-            "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Accessibility testing environment used in project evaluation"
-          }
-        ]
+        "featuredImage": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1400&q=80",
+        "featuredImageCaption": "Simulación de trayectorias de partículas en movimiento browniano.",
+        "screenshots": []
       },
       "meta": [
-        { "label": "Focus", "value": "Accessible Interface Research" },
-        { "label": "Methods", "value": "Design Systems, Evaluation, Prototyping" },
-        { "label": "Status", "value": "Ongoing" }
+        { "label": "Área", "value": "Física Computacional" },
+        { "label": "Métodos", "value": "Ecuaciones Diferenciales Estocásticas, Simulación" },
+        { "label": "Herramientas", "value": "Python / Mathematica, LaTeX" }
       ],
       "highlights": [
-        "Reusable UI patterns for accessible product development",
-        "Evaluation workflow for assistive interaction testing",
-        "Research translation into practical academic and development settings"
+        "Resolución numérica de Ecuaciones Diferenciales Estocásticas (SDEs).",
+        "Análisis del movimiento browniano y verificación del Teorema de Fluctuación-Disipación.",
+        "Redacción de reporte científico y formateo de ecuaciones matemáticas complejas en LaTeX."
       ],
-      "figures": [
-        {
-          "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
-          "caption": "Design review and collaborative prototyping workflow"
-        },
-        {
-          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-          "caption": "Accessibility testing environment used in project evaluation"
-        }
-      ],
-      "github": "https://github.com/example/assistive-ux",
-      "url": "https://example.edu/assistive-ux"
+      "figures": [],
+      "github": "https://github.com/tu-usuario",
+      "url": ""
     },
     {
-      "title": "Repro Pipelines",
-      "subtitle": "Workflows for reproducible experiments",
-      "year": "2024",
-      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
-      "description": "Automated scripts and containerized environments that make experiments reproducible.",
-      "longDescription": "A reproducible research workflow designed to improve consistency across data preparation, experiment execution, analysis, and reporting. The project supports transparent academic practice and faster collaboration among distributed research teams.",
-      "demoUrl": "https://example.edu/repro-pipelines-demo",
-      "videoUrl": "https://www.youtube.com/embed/Gl5MVtD3flQ",
+      "title": "Análisis de Datos: Real Madrid Baloncesto",
+      "subtitle": "Analítica deportiva y métricas de rendimiento en EuroLeague",
+      "year": "2026",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "description": "Análisis estadístico exhaustivo y visualización avanzada de datos de los jugadores del Real Madrid.",
+      "longDescription": "Proyecto de analítica deportiva desarrollado en Python centrado en el procesamiento y extracción de métricas de rendimiento de jugadores del Real Madrid (incluyendo estadísticas históricas de perfiles como Luka Dončić, Facundo Campazzo y Sergio Llull). El trabajo abarca la limpieza de datos con Pandas y la creación de representaciones visuales avanzadas utilizando Matplotlib y Seaborn, documentado íntegramente a través de Markdown en GitHub.",
+      "demoUrl": "",
+      "videoUrl": "",
       "media": {
-        "featuredVideo": "https://www.youtube.com/embed/Gl5MVtD3flQ",
-        "featuredVideoTitle": "Repro Pipelines Workflow Overview",
-        "featuredImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1400&q=80",
-        "featuredImageCaption": "Pipeline overview showing code, data, and reproducibility workflow integration.",
-        "screenshots": [
-          {
-            "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Research computing workflow for repeatable experiment design"
-          },
-          {
-            "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Code, data, and result tracking pipeline"
-          }
-        ]
+        "featuredImage": "https://images.unsplash.com/photo-1541562232579-512a21360020?auto=format&fit=crop&w=1400&q=80",
+        "featuredImageCaption": "Gráficos estadísticos y métricas de rendimiento.",
+        "screenshots": []
       },
       "meta": [
-        { "label": "Focus", "value": "Reproducible Research Infrastructure" },
-        { "label": "Tools", "value": "Python, Containers, Automation" },
-        { "label": "Output", "value": "Workflow and Experiment Pipelines" }
+        { "label": "Área", "value": "Analítica Deportiva" },
+        { "label": "Herramientas", "value": "Python, Pandas, Matplotlib, Seaborn" },
+        { "label": "Enfoque", "value": "Procesamiento de datos y Visualización" }
       ],
       "highlights": [
-        "Automated setup for repeatable experiment execution",
-        "Containerized environments for stable academic workflows",
-        "Integrated output pipeline for documentation and reporting"
+        "Desarrollo de gráficos estadísticos complejos: radar plots, violin plots y lollipop graphs.",
+        "Procesamiento y limpieza estructurada de conjuntos de datos de la EuroLeague mediante Pandas.",
+        "Creación de pipelines de visualización para analizar la distribución y eficiencia del rendimiento de los jugadores."
       ],
-      "figures": [
-        {
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
-          "caption": "Research computing workflow for repeatable experiment design"
-        },
-        {
-          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80",
-          "caption": "Code, data, and result tracking pipeline"
-        }
-      ],
-      "github": "https://github.com/example/repro-pipelines",
-      "url": "https://example.edu/repro-pipelines"
+      "figures": [],
+      "github": "https://github.com/tu-usuario",
+      "url": ""
     }
   ],
   "publications": [
