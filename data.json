@@ -561,35 +561,24 @@
    
   ],
   "contact": {
-    "email": "rcmalo@university.edu",
-    "phone": "+1 (801) 555‑0199",
-    "office": "Room 312, Merrill Engineering Bldg",
+    "email": "pablosantostejado@gmail.com",
+    "phone": "+34 619950172",
+    "office": "",
     "cvUrl": "https://example.edu/cv.pdf",
     "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.5!2d-111.84!3d40.76!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sUniversity+of+Utah!5e0!3m2!1sen!2sus",
     "socials": [
-      {
-        "platform": "google-scholar",
-        "url": "https://scholar.google.com/citations?user=EXAMPLE"
-      },
+      
       {
         "platform": "github",
-        "url": "https://github.com/example"
+        "url": "https://github.com/pablosantostejado"
       },
       {
         "platform": "linkedin",
-        "url": "https://linkedin.com/in/example"
-      },
-      {
-        "platform": "researchgate",
-        "url": "https://www.researchgate.net/profile/example"
+        "url": "www.linkedin.com/in/pablo-santos-5126192b4"
       },
       {
         "platform": "kaggle",
-        "url": "https://www.kaggle.com/example"
-      },
-      {
-        "platform": "orcid",
-        "url": "https://orcid.org/0000-0000-0000-0000"
+        "url": "https://www.kaggle.com/pablosantos14"
       }
     ]
   },
