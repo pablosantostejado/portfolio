@@ -735,21 +735,19 @@ function renderContact(c,name,cv,settings){
       '<div class="contact-grid"><div class="map-wrap"><iframe src="'+c.mapEmbed+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map"></iframe></div><aside class="contact-info"><h3>Contact Me</h3><ul class="contact-list"><li class="contact-item"><div class="ci-icon">'+ICONS.user+'</div><div><div class="ci-label">Name</div>'+esc(name)+'</div></li><li class="contact-item"><div class="ci-icon">'+ICONS.mail+'</div><div><div class="ci-label">Email</div><a href="mailto:'+c.email+'">'+esc(c.email)+'</a></div></li><li class="contact-item"><div class="ci-icon">'+ICONS.phone+'</div><div><div class="ci-label">Phone</div><a href="tel:'+c.phone+'">'+esc(c.phone)+'</a></div></li><li class="contact-item"><div class="ci-icon">'+ICONS.pin+'</div><div><div class="ci-label">Office</div>'+esc(c.office)+'</div></li></ul><div class="contact-actions"><a class="btn-primary" href="mailto:'+c.email+'">'+ICONS.mail+'Mail</a><a class="btn-outline" href="'+cvUrl+'" target="_blank" rel="noopener">'+ICONS.pdf+'CV</a></div><div class="contact-profiles"><span class="ci-label">Academic Profiles</span><div class="socials">'+socialsHTML+'</div></div></aside></div>';
     return;
   }
-  document.getElementById('contactContent').innerHTML=
+ document.getElementById('contactContent').innerHTML=
     '<div class="contact-stack">'+
       '<section class="contact-banner centered reveal">'+
-        '<h3>Research Collaboration & Opportunities</h3>'+
-        '<p class="contact-lead">I welcome research collaboration, student supervision discussions, interdisciplinary academic partnerships, and opportunities to work on impactful projects in geotechnical engineering, soil improvement, and experimental research. If you would like to discuss a position, a joint study, or a potential collaboration, feel free to reach out.</p>'+
         '<div class="contact-detail-actions">'+
           '<ul class="contact-top-list">'+
-            '<li class="contact-top-item"><div class="ci-icon">'+ICONS.user+'</div><div><div class="ci-label">Name</div><div class="contact-value">'+esc(name)+'</div></div></li>'+
-            '<li class="contact-top-item"><div class="ci-icon">'+ICONS.mail+'</div><div><div class="ci-label">Email</div><div class="contact-value"><a href="mailto:'+c.email+'">'+esc(c.email)+'</a></div></div></li>'+
-            '<li class="contact-top-item"><div class="ci-icon">'+ICONS.phone+'</div><div><div class="ci-label">Phone</div><div class="contact-value"><a href="tel:'+c.phone+'">'+esc(c.phone)+'</a></div></div></li>'+
+            '<li class="contact-top-item"><div class="ci-icon">'+ICONS.user+'</div><div><div class="ci-label">Nombre</div><div class="contact-value">'+esc(name)+'</div></div></li>'+
+            '<li class="contact-top-item"><div class="ci-icon">'+ICONS.mail+'</div><div><div class="ci-label">Correo</div><div class="contact-value"><a href="mailto:'+c.email+'">'+esc(c.email)+'</a></div></div></li>'+
+            '<li class="contact-top-item"><div class="ci-icon">'+ICONS.phone+'</div><div><div class="ci-label">Teléfono</div><div class="contact-value"><a href="tel:'+c.phone+'">'+esc(c.phone)+'</a></div></div></li>'+
           '</ul>'+
-          '<div class="contact-action-column"><a class="btn-primary" href="mailto:'+c.email+'">'+ICONS.mail+'Mail</a><a class="btn-outline" href="'+cvUrl+'" target="_blank" rel="noopener">'+ICONS.pdf+'CV</a></div>'+
+          '<div class="contact-action-column"><a class="btn-primary" href="mailto:'+c.email+'">'+ICONS.mail+'Email</a><a class="btn-outline" href="'+cvUrl+'" target="_blank" rel="noopener">'+ICONS.pdf+'CV</a></div>'+
         '</div>'+
         '<div class="contact-section-divider"></div>'+
-        '<div class="ci-label" style="margin-bottom:0.85rem">Academic Profiles</div>'+
+        '<div class="ci-label" style="margin-bottom:0.85rem">Perfiles</div>'+
         '<div class="contact-profiles-buttons">'+profileButtons+'</div>'+
       '</section>'+
     '</div>';
