@@ -541,91 +541,24 @@
       "logo": ""
     }
   ],
-  "awards": [
+ "awards": [
     {
-      "title": "Best Paper Award",
-      "subtitle": "Conference X, 2024",
-      "url": "https://example.edu/best-paper",
-      "icon": "award",
-      "iconColor": "warm",
-      "organizer": "Conference X Organizing Committee",
-      "location": "Singapore",
-      "date": "July 2024",
-      "certificateName": "Best Paper Award Certificate",
-      "details": "Recognized for outstanding research contribution and presentation quality in a competitive international conference setting.",
-      "certificateImage": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80",
-      "certificateUrl": "https://example.edu/best-paper-certificate"
-    },
-    {
-      "title": "Demo Prize",
-      "subtitle": "Symposium Y, 2023",
-      "url": "https://example.edu/demo-prize",
-      "icon": "star",
-      "iconColor": "warm",
-      "organizer": "Symposium Y",
-      "location": "Boston, USA",
-      "date": "October 2023",
-      "certificateName": "Demo Prize Recognition",
-      "details": "Awarded for presenting an engaging live demonstration with strong research-to-practice impact and audience response.",
-      "certificateImage": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80",
-      "certificateUrl": "https://example.edu/demo-prize-certificate"
-    },
-    {
-      "title": "Graduate Fellowship",
-      "subtitle": "Foundation Z, 2021",
-      "url": "https://example.edu/fellowship",
-      "icon": "cap",
-      "iconColor": "warm",
-      "organizer": "Foundation Z",
-      "location": "Dhaka, Bangladesh",
-      "date": "January 2021",
-      "certificateName": "Graduate Fellowship Award",
-      "details": "Competitive fellowship supporting graduate research, academic development, and scholarly excellence.",
-      "certificateImage": "https://images.unsplash.com/photo-1516321310764-8d2ef7a13f7b?auto=format&fit=crop&w=900&q=80",
-      "certificateUrl": "https://example.edu/fellowship-certificate"
-    },
-    {
-      "title": "UX Research Certificate",
-      "subtitle": "Provider A, 2023",
-      "url": "https://example.edu/ux-cert",
-      "icon": "monitor",
+      "title": "Español - Nivel Nativo",
+      "subtitle": "",
+      "url": "",
+      "icon": "globe",
       "iconColor": "accent",
-      "organizer": "Provider A",
-      "location": "Online",
-      "date": "March 2023",
-      "certificateName": "UX Research Professional Certificate",
-      "details": "Completed structured training in research planning, usability evaluation, and evidence-based interface design.",
-      "certificateImage": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
-      "certificateUrl": "https://example.edu/ux-research-certificate"
+      "details": ""
     },
     {
-      "title": "Data Privacy Training",
-      "subtitle": "Provider B, 2022",
-      "url": "https://example.edu/privacy",
-      "icon": "shield",
-      "iconColor": "sage",
-      "organizer": "Provider B",
-      "location": "Online",
-      "date": "August 2022",
-      "certificateName": "Data Privacy Compliance Certificate",
-      "details": "Certified in research data privacy, safe handling of participant information, and responsible data management practices.",
-      "certificateImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=80",
-      "certificateUrl": "https://example.edu/privacy-certificate"
-    },
-    {
-      "title": "Open Source Contributor",
-      "subtitle": "Project C, 2022",
-      "url": "https://example.edu/oss",
-      "icon": "code",
+      "title": "Inglés - Nivel B2",
+      "subtitle": "Certificado por Cambridge ",
+      "url": "",
+      "icon": "globe",
       "iconColor": "accent",
-      "organizer": "Project C Maintainers",
-      "location": "Global / Remote",
-      "date": "December 2022",
-      "certificateName": "Contributor Recognition",
-      "details": "Recognized for consistent open-source contributions, technical collaboration, and community support in a research-related software project.",
-      "certificateImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80",
-      "certificateUrl": "https://example.edu/oss-recognition"
-    }
+      "details": ""
+    },
+   
   ],
   "contact": {
     "email": "rcmalo@university.edu",
