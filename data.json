@@ -121,17 +121,17 @@
         "items": [
           {
             "name": "Python",
-            "icon": "code",
+            "icon": "python",
             "note": "NumPy, Pandas, Matplotlib y Seaborn para análisis y visualización de datos."
           },
           {
             "name": "Wolfram Mathematica",
-            "icon": "monitor",
+            "icon": "wolfram",
             "note": "Implementación de algoritmos numéricos y simulaciones estocásticas."
           },
           {
             "name": "R / RStudio",
-            "icon": "code",
+            "icon": "rstudio",
             "note": "Análisis estadístico, tratamiento de conjuntos de datos y generación gráfica."
           },
           {
@@ -141,22 +141,22 @@
           },
           {
             "name": "IBM SPSS",
-            "icon": "monitor",
+            "icon": "chart",
             "note": "Análisis estadístico descriptivo e inferencial, pruebas de hipótesis y regresión."
           },
           {
             "name": "Power BI",
-            "icon": "monitor",
+            "icon": "powerbi",
             "note": "Creación de dashboards interactivos, modelado de datos y visualización de métricas."
           },
           {
             "name": "Microsoft Excel",
-            "icon": "monitor",
+            "icon": "excel",
             "note": "Fórmulas avanzadas, tablas dinámicas, automatización y análisis cuantitativo."
           },
           {
             "name": "SQL",
-            "icon": "globe",
+            "icon": "database",
             "note": "Gestión, diseño y consulta de bases de datos relacionales."
           }
           
