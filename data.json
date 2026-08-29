@@ -141,7 +141,7 @@
           },
           {
             "name": "IBM SPSS",
-            "icon": "chart",
+            "icon": "ibm",
             "note": "Análisis estadístico descriptivo e inferencial, pruebas de hipótesis y regresión."
           },
           {
@@ -156,7 +156,7 @@
           },
           {
             "name": "SQL",
-            "icon": "database",
+            "icon": "sql",
             "note": "Gestión, diseño y consulta de bases de datos relacionales."
           }
           
