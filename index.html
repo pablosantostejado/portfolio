@@ -683,11 +683,7 @@ function renderAwards(awards){
   document.getElementById('awardsGrid').innerHTML=awards.map(a=>{
     const iconSVG=ICONS[a.icon]||ICONS.award;
     const color=ICON_COLORS[a.iconColor]||'var(--accent-warm)';
-    const canOpen = !!(a.details || a.organizer || a.date || a.location || a.certificateImage || a.certificateUrl);
-    if(canOpen){
-      return '<button class="compact-card reveal award-detail-btn" type="button" data-award="'+window._awards.indexOf(a)+'" style="width:100%;text-align:left;cursor:pointer;font-family:var(--sans)"><div class="compact-icon" style="color:'+color+'">'+iconSVG+'</div><div class="compact-body"><h3>'+esc(a.title)+'</h3><div class="sub">'+esc(a.subtitle)+'</div></div><div class="ext-arrow" style="opacity:1;transform:none">'+ICONS.extArrow+'</div></button>';
-    }
-    return '<a class="compact-card reveal" href="'+a.url+'" target="_blank" rel="noopener"><div class="compact-icon" style="color:'+color+'">'+iconSVG+'</div><div class="compact-body"><h3>'+esc(a.title)+'</h3><div class="sub">'+esc(a.subtitle)+'</div></div><div class="ext-arrow">'+ICONS.extArrow+'</div></a>';
+    return '<div class="compact-card reveal" style="cursor:default; box-shadow:var(--shadow); transform:none; border-color:var(--card-border);"><div class="compact-icon" style="color:'+color+'">'+iconSVG+'</div><div class="compact-body"><h3>'+esc(a.title)+'</h3><div class="sub">'+esc(a.subtitle)+'</div></div></div>';
   }).join('');
 }
 
