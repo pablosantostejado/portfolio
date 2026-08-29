@@ -531,50 +531,14 @@
       "bgColor": "#1a1a2e"
     }
   ],
-  "experience": [
-    {
-      "title": "Assistant Professor",
-      "organization": "University of Utah — Dept. of Civil Engineering",
-      "description": "Leading research in HCI, accessibility, and reproducible methods. Teaching undergraduate and graduate courses.",
-      "years": "2022 — Present",
-      "icon": "monitor"
-    },
-    {
-      "title": "Postdoctoral Researcher",
-      "organization": "National Institute of Standards — HCI Division",
-      "description": "Developed accessibility evaluation frameworks and published 4 journal papers on inclusive interface design.",
-      "years": "2020 — 2022",
-      "icon": "globe"
-    },
-    {
-      "title": "Research Assistant",
-      "organization": "University of Utah — Interactive Systems Lab",
-      "description": "Contributed to 3 major research projects on assistive technology and user study design.",
-      "years": "2016 — 2020",
-      "icon": "pencil"
-    }
-  ],
+ "experience": [],
   "education": [
     {
-      "title": "Ph.D. in Human-Computer Interaction",
-      "organization": "University of Utah",
-      "description": "Dissertation: \"Designing Inclusive Pipelines for Reproducible HCI Research.\" Advised by Prof. Example.",
-      "years": "2016 — 2020",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Utah_Utes_-_U_logo.svg/3840px-Utah_Utes_-_U_logo.svg.png"
-    },
-    {
-      "title": "M.S. in Computer Science",
-      "organization": "Massachusetts Institute of Technology",
-      "description": "Specialization in AI and Human Factors. Thesis on adaptive user interfaces.",
-      "years": "2014 — 2016",
-      "logo": "https://download.logo.wine/logo/Massachusetts_Institute_of_Technology/Massachusetts_Institute_of_Technology-Logo.wine.png"
-    },
-    {
-      "title": "B.S. in Cognitive Science",
-      "organization": "University of California, Berkeley",
-      "description": "Minor in CS. Graduated with honors. Capstone on accessibility in mobile apps.",
-      "years": "2010 — 2014",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/150px-Seal_of_University_of_California%2C_Berkeley.svg.png"
+      "title": "Doble Grado en Física y Matemáticas",
+      "organization": "Universidad de Salamanca (USAL)",
+      "description": "Estudiante de 5º curso. Especialización en análisis numérico, simulaciones computacionales y modelado matemático.",
+      "years": "2021 — Presente",
+      "logo": ""
     }
   ],
   "awards": [
