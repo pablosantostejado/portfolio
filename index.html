@@ -346,7 +346,7 @@ a.compact-card:hover .ext-arrow{opacity:1;transform:translateX(0)}
   <div id="researchContent"></div>
 </section>
 <section class="section" id="projects"><div class="section-header"><h2>Proyectos</h2></div><div class="grid g2" id="projectsGrid"></div></section>
-<section class="section" id="experience"><div class="section-header"><h2>Experiencia y Educación</h2></div><div id="expTabsContainer"></div></section>
+<section class="section" id="experience"><div class="section-header"><h2>Educación</h2></div><div id="expTabsContainer"></div></section>
 <section class="section" id="awards"><div class="section-header"><h2>Premios y Certificaciones</h2></div><div class="grid g3" id="awardsGrid"></div></section>
 <section class="section" id="contact"><div class="section-header"><h2>Contacto</h2></div><div id="contactContent"></div></section>
 <footer class="footer" id="footerContent"></footer>
@@ -673,10 +673,9 @@ function renderTeaching(lectures){
 }
 
 function renderExperience(exp,edu){
-  const expHTML=exp.map(e=>'<div class="timeline-item"><div class="tl-logo">'+(ICONS[e.icon]||ICONS.monitor)+'</div><div class="tl-content"><h4>'+esc(e.title)+'</h4><div class="tl-org">'+esc(e.organization)+'</div><div class="tl-desc">'+esc(e.description)+'</div></div><div class="tl-year">'+esc(e.years)+'</div></div>').join('');
   const eduHTML=edu.map(e=>'<div class="timeline-item"><div class="tl-logo">'+(e.logo?'<img src="'+e.logo+'" alt="'+esc(e.organization)+'">':ICONS.cap)+'</div><div class="tl-content"><h4>'+esc(e.title)+'</h4><div class="tl-org">'+esc(e.organization)+'</div><div class="tl-desc">'+esc(e.description)+'</div></div><div class="tl-year">'+esc(e.years)+'</div></div>').join('');
   document.getElementById('expTabsContainer').innerHTML=
-    '<div class="tabs-container reveal"><div class="tabs-header"><button class="tab-btn active" data-tab="exp">Experience</button><button class="tab-btn" data-tab="edu">Education</button></div><div class="tab-panel active" id="tab-exp">'+expHTML+'</div><div class="tab-panel" id="tab-edu">'+eduHTML+'</div></div>';
+    '<div class="tabs-container reveal"><div class="tab-panel active" style="padding:0.5rem 1.4rem">'+eduHTML+'</div></div>';
 }
 
 function renderAwards(awards){
