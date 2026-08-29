@@ -435,27 +435,17 @@ function renderDemoSwitcher(settings){
 // RENDER FUNCTIONS
 // ============================================================
 function renderHero(p, projects, hero, settings){
-  const manual = (p.photos || []).map(ph => ({ src: ph.src, alt: ph.alt, title: '' }));
-  const proj = (projects || []).filter(pr => pr.image).map(pr => ({ src: pr.image, alt: pr.title, title: pr.title }));
-  const allPhotos = [...manual, ...proj];
-  if(allPhotos.length === 0) allPhotos.push({ src: '', alt: 'No image', title: '' });
   const kicker = (hero && hero.welcomeTitle) || 'Welcome';
   const roleLabel = (settings && settings.templateLabel) || p.role;
+  const photoUrl = (p.photos && p.photos.length > 0) ? p.photos[0].src : '';
 
-  const slides=allPhotos.map((ph,i)=>{
-    let caption = ph.title ? '<div class="slide-caption" style="position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,0.65);color:#fff;padding:0.75rem 1rem;font-size:0.85rem;font-weight:600;font-family:var(--sans);backdrop-filter:blur(4px);">'+esc(ph.title)+'</div>' : '';
-    return '<div class="photo-slide'+(i===0?' active':'')+'" style="position:relative;"><img src="'+ph.src+'" alt="'+esc(ph.alt)+'" loading="'+(i===0?'eager':'lazy')+'">'+caption+'</div>';
-  }).join('');
-  
-  const dots=allPhotos.map((ph,i)=>'<button class="photo-dot'+(i===0?' active':'')+'" data-i="'+i+'"></button>').join('');
-  
   document.getElementById('heroSection').innerHTML=
-    '<section class="hero"><div class="hero-text reveal"><div class="kicker">'+esc(kicker)+'</div><h1>'+p.headline+'</h1><p class="lead">'+p.bio+'</p><div class="hero-actions"><a class="btn-primary" href="#projects">'+ICONS.grid+'Proyectos</a></div><div class="hero-role">'+ICONS.user+' '+esc(roleLabel)+' · '+esc(p.affiliation)+'</div></div><div class="featured-card reveal"><div class="photo-carousel" id="photoCarousel"><div class="photo-track" id="photoTrack">'+slides+'</div><div class="photo-dots" id="photoDots">'+dots+'</div></div><div class="carousel-nav"><button class="car-btn" id="photoPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button><button class="car-btn" id="photoNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button></div></div></section>';
+    '<section class="hero"><div class="hero-text reveal"><div class="kicker">'+esc(kicker)+'</div><h1>'+p.headline+'</h1><p class="lead">'+p.bio+'</p><div class="hero-actions"><a class="btn-primary" href="#projects">'+ICONS.grid+'Proyectos</a></div><div class="hero-role">'+ICONS.user+' '+esc(roleLabel)+' · '+esc(p.affiliation)+'</div></div><div class="featured-card reveal" style="padding: 0.6rem; height: 480px;"><img src="'+photoUrl+'" alt="Perfil" style="width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 10px; display: block;"></div></section>';
+
   document.getElementById('brandInitials').textContent=p.initials;
   document.getElementById('brandName').textContent=p.name;
   document.getElementById('brandTagline').textContent=p.tagline;
 }
-
 function renderHiring(h, opportunities){
   const positions = opportunities && opportunities.positions && opportunities.positions.length ? opportunities.positions : [];
   const title = (opportunities && opportunities.title) || (h && h.title) || 'Open to Collaborate';
