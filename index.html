@@ -754,10 +754,8 @@ function renderContact(c,name,cv,settings){
 }
 
 function renderFooter(f){
-  document.getElementById('footerContent').innerHTML=
-    '&copy; '+new Date().getFullYear()+' '+esc(f.copyright)+' — Academic Portfolio<div style="margin-top:0.6rem;font-size:0.75rem;opacity:0.7;display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap"><span>Designed by <a href="https://github.com/riponcm" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none"><strong>'+esc(f.designedBy)+'</strong></a></span><span>'+esc(f.version)+'</span><span><a href="'+f.repoUrl+'" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">Acadpro '+esc(f.version)+'</a></span></div>';
+  document.getElementById('footerContent').innerHTML= '';
 }
-
 // ============================================================
 // INTERACTIVE FEATURES (initialized after render)
 // ============================================================
