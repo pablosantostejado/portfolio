@@ -587,7 +587,7 @@
     "description": "Use this area for a complete academic CV covering education, publications, teaching, research activities, and service.",
     "note": "You can later connect this button to a PDF CV, resume, or full profile page.",
     "buttonLabel": "View CV",
-    "url": "https://example.edu/cv.pdf"
+    "url": "CV_1.pdf"
   },
   "footer": {
     "copyright": "Dr. R.C. Malo",
