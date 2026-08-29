@@ -437,10 +437,9 @@ function renderDemoSwitcher(settings){
 function renderHero(p, projects, hero, settings){
   const kicker = (hero && hero.welcomeTitle) || 'Welcome';
   const roleLabel = (settings && settings.templateLabel) || p.role;
-  const photoUrl = (p.photos && p.photos.length > 0) ? p.photos[0].src : '';
 
   document.getElementById('heroSection').innerHTML=
-    '<section class="hero"><div class="hero-text reveal"><div class="kicker">'+esc(kicker)+'</div><h1>'+p.headline+'</h1><p class="lead">'+p.bio+'</p><div class="hero-actions"><a class="btn-primary" href="#projects">'+ICONS.grid+'Proyectos</a></div><div class="hero-role">'+ICONS.user+' '+esc(roleLabel)+' · '+esc(p.affiliation)+'</div></div><div class="featured-card reveal" style="padding: 0.6rem; height: 480px;"><img src="'+photoUrl+'" alt="Perfil" style="width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 10px; display: block;"></div></section>';
+    '<section class="hero"><div class="hero-text reveal"><div class="kicker">'+esc(kicker)+'</div><h1>'+p.headline+'</h1><p class="lead">'+p.bio+'</p><div class="hero-actions"><a class="btn-primary" href="#projects">'+ICONS.grid+'Proyectos</a></div><div class="hero-role">'+ICONS.user+' '+esc(roleLabel)+' · '+esc(p.affiliation)+'</div></div><div class="featured-card reveal" style="padding: 0.6rem; height: 480px;"><img src="orla.png" alt="Perfil" style="width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 10px; display: block;"></div></section>';
 
   document.getElementById('brandInitials').textContent=p.initials;
   document.getElementById('brandName').textContent=p.name;
