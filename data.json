@@ -121,17 +121,17 @@
         "items": [
           {
             "name": "Python",
-            "icon": "python",
+            "icon": "code",
             "note": "NumPy, Pandas, Matplotlib y Seaborn para análisis y visualización de datos."
           },
           {
             "name": "Wolfram Mathematica",
-            "icon": "wolfram",
+            "icon": "monitor",
             "note": "Implementación de algoritmos numéricos y simulaciones estocásticas."
           },
           {
             "name": "R / RStudio",
-            "icon": "rstudio",
+            "icon": "code",
             "note": "Análisis estadístico, tratamiento de conjuntos de datos y generación gráfica."
           },
           {
@@ -141,7 +141,7 @@
           },
           {
             "name": "IBM SPSS",
-            "icon": "ibm",
+            "icon": "monitor",
             "note": "Análisis estadístico descriptivo e inferencial, pruebas de hipótesis y regresión."
           },
           {
