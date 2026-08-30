@@ -273,19 +273,8 @@
         "featuredVideoTitle": "",
         "featuredImage": "",
         "featuredImageCaption": "",
-        "screenshots": []
-      },
-      "meta": [
-        { "label": "Área", "value": "Física Computacional/Física Estadística" },
-        { "label": "Herramientas", "value": "Python, LaTeX" }
-      ],
-      "highlights": [
-        "Resolución numérica de Ecuaciones Diferenciales Estocásticas (SDEs).",
-        "Análisis del movimiento browniano y verificación del Teorema de Fluctuación-Disipación.",
-        "Redacción de informe científico "
-      ],
-      "figures": [
-        {
+        "screenshots": [
+           {
           "image": "imagenes/g2.png",
           "caption": ""
         },
@@ -301,6 +290,18 @@
           "image": "imagenes/g7.png",
           "caption": ""
         }
+        ]
+      },
+      "meta": [
+        { "label": "Área", "value": "Física Computacional/Física Estadística" },
+        { "label": "Herramientas", "value": "Python, LaTeX" }
+      ],
+      "highlights": [
+        "Resolución numérica de Ecuaciones Diferenciales Estocásticas (SDEs).",
+        "Análisis del movimiento browniano y verificación del Teorema de Fluctuación-Disipación.",
+        "Redacción de informe científico "
+      ],
+      "figures": [
       ],
       "github": "https://github.com/pablosantostejado/Simulacion_Langevin",
       "url": ""
