@@ -316,8 +316,8 @@
       "demoUrl": "",
       "videoUrl": "",
       "media": {
-        "featuredImage": "https://images.unsplash.com/photo-1541562232579-512a21360020?auto=format&fit=crop&w=1400&q=80",
-        "featuredImageCaption": "Gráficos estadísticos y métricas de rendimiento.",
+        "featuredImage": "",
+        "featuredImageCaption": "",
         "screenshots": [
            {
           "image": "imagenes/g11.png",
