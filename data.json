@@ -310,7 +310,7 @@
       "title": "Análisis y Visualización de Datos Deportivos",
       "subtitle": "",
       "year": "2026",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "image": "imagenes/g13.png",
       "description": "Análisis estadístico y visualización de datos de los jugadores del Real Madrid en Euroliga desde 2007 hasta la actualidad.",
       "longDescription": "Este proyecto consiste en un análisis estadístico del rendimiento histórico del equipo de baloncesto del Real Madrid en la Euroliga. El objetivo principal de este documento es evaluar de manera cuantitativa la evolución del estilo de juego, la eficiencia ofensiva y defensiva, y el impacto individual de los jugadores. Mediante la aplicación de técnicas de análisis de datos, se examinan variables estructuradas como el volumen de tiro, la distribución de minutos y la aportación relativa de los jugadores titulares frente a los suplentes. Este informe detalla los resultados analíticos obtenidos y proporciona una representación visual de las tendencias más relevantes para comprender el desarrollo táctico e histórico del equipo.",
       "demoUrl": "",
@@ -318,7 +318,24 @@
       "media": {
         "featuredImage": "https://images.unsplash.com/photo-1541562232579-512a21360020?auto=format&fit=crop&w=1400&q=80",
         "featuredImageCaption": "Gráficos estadísticos y métricas de rendimiento.",
-        "screenshots": []
+        "screenshots": [
+           {
+          "image": "imagenes/g11.png",
+          "caption": ""
+        },
+        {
+          "image": "imagenes/g15.png",
+          "caption": ""
+        },
+        {
+          "image": "imagenes/g16.png",
+          "caption": ""
+        },
+        {
+          "image": "imagenes/g9.png",
+          "caption": ""
+        }
+        ]
       },
       "meta": [
         { "label": "Área", "value": "Estadística/Análsis y Visualización de Datos" },
@@ -330,7 +347,7 @@
       ],
       "figures": [],
       "github": "https://github.com/tu-usuario",
-      "url": ""
+      "url": "https://github.com/pablosantostejado/analisis-real-madrid-euroliga"
     }
   ],
   "publications": [
