@@ -464,7 +464,7 @@ function renderHiring(h, opportunities){
 function renderProjects(projects){
   window._projects = projects || [];
   document.getElementById('projectsGrid').innerHTML=projects.map(p=>
-    '<article class="card reveal"><div class="card-top"><div><button class="project-open project-detail-btn" type="button" data-project="'+window._projects.indexOf(p)+'"><h3>'+esc(p.title)+'</h3></button><div class="sub">'+esc(p.subtitle)+'</div></div><span class="tag">'+esc(p.year)+'</span></div><button class="project-open project-detail-btn" type="button" data-project="'+window._projects.indexOf(p)+'"><div class="card-media"><img src="'+p.image+'" alt="'+esc(p.title)+'" loading="lazy"></div></button><div class="card-desc">'+esc(p.description)+'</div><div class="card-actions"><a class="action-btn" href="'+p.github+'" target="_blank">'+ICONS.github+'GitHub</a>'+shareDropdownHTML(p.title,p.url)+'</div></article>'
+    '<article class="card reveal"><div class="card-top"><div><button class="project-open project-detail-btn" type="button" data-project="'+window._projects.indexOf(p)+'"><h3>'+esc(p.title)+'</h3></button><div class="sub">'+esc(p.subtitle)+'</div></div><span class="tag">'+esc(p.year)+'</span></div><button class="project-open project-detail-btn" type="button" data-project="'+window._projects.indexOf(p)+'"><div class="card-media"><img src="'+p.image+'" alt="'+esc(p.title)+'" loading="lazy"></div></button><div class="card-desc">'+esc(p.description)+'</div><div class="card-actions"><a class="action-btn" href="'+p.github+'" target="_blank">'+ICONS.github+'GitHub</a></div></article>'
   ).join('');
 }
 
