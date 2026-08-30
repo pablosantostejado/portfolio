@@ -263,7 +263,7 @@
       "title": "Simulación de la Ecuación de Langevin",
       "subtitle": "",
       "year": "2026",
-      "image": "g10.png",
+      "image": "imagenes/g10.png",
       "description": "Análisis analítico y simulación numérica de la ecuacion de Langevin en diversos perfiles de potencial",
       "longDescription": "Este documento presenta un estudio analítico y computacional de la dinámica de Langevin en el límite sobreamortiguado. Se desarrolla el marco teórico del cálculo estocástico de Itô y la ecuación de Fokker-Planck para modelar sistemas microscópicos sometidos a fluctuaciones térmicas. De forma analítica, se resuelve el desplazamiento cuadrático medio para una partícula libre y para una confinada en un potencial armónico, demostrando en este último caso la convergencia al equilibrio termodinámico dictado por el teorema de equipartición. Computacionalmente, los resultados teóricos se validan integrando la ecuación diferencial estocástica mediante el algoritmo de Euler-Maruyama. Finalmente, se analiza la dinámica en un potencial biestable, verificando la convergencia hacia la distribución estacionaria y caracterizando numéricamente las transiciones de Kramers inducidas por el ruido entre estados de equilibrio local.",
       "demoUrl": "",
@@ -284,7 +284,24 @@
         "Análisis del movimiento browniano y verificación del Teorema de Fluctuación-Disipación.",
         "Redacción de informe científico "
       ],
-      "figures": [],
+      "figures": [
+        {
+          "image": "imagenes/g2.png",
+          "caption": ""
+        },
+        {
+          "image": "imagenes/g3.png",
+          "caption": ""
+        },
+        {
+          "image": "imagenes/g6.png",
+          "caption": ""
+        },
+        {
+          "image": "imagenes/g7.png",
+          "caption": ""
+        }
+      ],
       "github": "https://github.com/pablosantostejado/Simulacion_Langevin",
       "url": ""
     },
