@@ -18,4 +18,4 @@ El portafolio está construido con HTML, CSS y JavaScript puro, gestionando el c
 * `CV_1.pdf`: Mi currículum académico y profesional.
 
 ## Visita la web
-Puedes ver el portafolio en funcionamiento aquí: **[AÑADE_AQUÍ_EL_ENLACE_A_TU_WEB]**
+Puedes ver el portafolio en funcionamiento aquí: **[https://pablosantostejado.github.io/portfolio/]**
